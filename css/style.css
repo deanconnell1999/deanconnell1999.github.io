@@ -1,0 +1,144 @@
+*{
+	font-family: Montserrat;
+}
+body{
+	line-height: 1.2em;
+	color: #555555;
+	margin: auto;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	transition: .4s color;
+}
+.header{	
+	color: white;
+	height: 35vh;
+	overflow: auto;
+	padding-left: 1em;
+	padding-right: 2em;
+	background: url(https://i.pinimg.com/originals/36/f0/94/36f0949c623b61a235fd6645fa507236.jpg);
+}
+.about{
+	background-color: #ffffff;
+	overflow: auto;
+	text-align: center;
+}
+.about img{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+.image-container{
+	float: left;
+	width: 40%;
+}
+.about-content {
+	width: 85%;
+	margin: auto;
+	overflow: auto;
+	padding: 3em 0;
+}
+.about-text{
+	float:left;
+	text-align: left;
+	width:60%;
+}
+.about a{
+	color: black;
+}
+.about a:hover{
+	color: rgb(55, 182, 174);
+}
+.titles{
+	float: left;
+	width: 60%;
+	padding: 5px 20px;	
+	box-sizing: border-box;
+}
+.titles a{
+	color: white;
+}
+.titles a:hover{
+	color: rgb(55, 182, 174);
+}
+.nav-menu{
+	float: right;
+	width: 40%;
+	box-sizing: border-box;
+}
+.nav-menu ul{
+	list-style-type: none;
+	padding: 1.5em 0;
+	text-align: right;
+}
+.nav-menu ul li{
+	display: inline;
+	padding: 0 0.5em;
+	font-size: 20px
+}
+.nav-menu ul li a{
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+.nav-menu ul li a:hover{
+	color: rgb(55, 182, 174);
+}
+.projects{
+	background-color: #eee;
+}
+.projects a{
+	color: black;
+}
+.projects a:hover{
+	color: rgb(55, 182, 174);
+}
+.projects a:visited{
+	color: black;
+}
+.projects-content {
+	width: 85%;
+	margin: auto;
+	overflow: auto;
+	padding: 3em 0;
+}
+.social a{
+	color: black;
+}
+.social a:hover{
+	color: rgb(55, 182, 174);
+}
+.social ul{
+	list-style-type: none;
+	padding: 1.5em 0;
+}
+.social	ul li{
+	display: inline;
+}
+.social ul li img{
+	border-radius: 50%;
+}
+.social-content {
+	width: 85%;
+	margin: auto;
+	overflow: auto;
+	padding: 3em 0;
+}
+.social-links{
+	text-align: center;
+}
+.clr{
+	clear: both;
+}
+
+@media only screen and (max-width: 768px) {
+	.about-text {
+		width: 100%;
+	}
+	.image-container {
+		margin-top: 2em;
+		width: 100%;
+	}
+}
