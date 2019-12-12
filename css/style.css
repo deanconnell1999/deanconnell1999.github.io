@@ -116,6 +116,7 @@ a:hover{
 }
 .social	ul li{
 	display: inline;
+	padding: 0 0.25em;
 }
 .social ul li img{
 	border-radius: 50%;
@@ -128,6 +129,13 @@ a:hover{
 }
 .social-links{
 	text-align: center;
+}
+.footer{	
+	color: white;
+	text-align: center;
+	height: 20vh;
+	overflow: auto;
+	background: url(https://i.pinimg.com/originals/36/f0/94/36f0949c623b61a235fd6645fa507236.jpg);
 }
 .clr{
 	clear: both;
