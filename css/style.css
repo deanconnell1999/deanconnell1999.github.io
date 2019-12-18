@@ -63,6 +63,18 @@ a:hover{
 .titles a:hover{
 	color: rgb(55, 182, 174);
 }
+.firstname{
+	line-height: 10px;
+	text-align: left;
+	display: inline;
+	float: left;
+	padding-right: 0.5em;
+}
+.lastname{
+	line-height: 10px;
+	text-align: left;
+	display: inline;
+}
 .nav-menu{
 	float: right;
 	width: 40%;
@@ -148,5 +160,21 @@ a:hover{
 	.image-container {
 		margin-top: 2em;
 		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.nav-menu{
+		width: 100%;
+		box-sizing: border-box;
+		text-align: left;
+		float: left;
+		padding-left: 1em;
+	}
+	.nav-menu ul{
+		text-align: left;
+	}
+	.header{
+		height: 50vh;
 	}
 }
