@@ -14,11 +14,14 @@ a:hover{
 }
 .header{	
 	color: white;
-	height: 35vh;
+	height: 30vh;
 	overflow: auto;
 	padding-left: 1em;
 	padding-right: 2em;
-	background: url(https://i.pinimg.com/originals/36/f0/94/36f0949c623b61a235fd6645fa507236.jpg);
+	background: url(https://miro.medium.com/max/3840/0*AvJpsTWfq3il1ds9.jpg);
+}
+.header h1{
+	font-size: 40px;
 }
 .about{
 	background-color: #ffffff;
@@ -27,11 +30,13 @@ a:hover{
 }
 .about img{
 	border-radius: 50%;
-	width: 250px;
-	height: 250px;
+	width: 100%;
+	height: 100%;
+	text-align: right;
 }
 .image-container{
-	float: left;
+	float: right;
+	text-align: right;
 	width: 40%;
 }
 .about-content {
@@ -41,9 +46,9 @@ a:hover{
 	padding: 3em 0;
 }
 .about-text{
-	float:left;
+	float: left;
 	text-align: left;
-	width:60%;
+	width: 60%;
 }
 .about a{
 	color: black;
@@ -107,14 +112,29 @@ a:hover{
 .projects a:hover{
 	color: rgb(55, 182, 174);
 }
-.projects a:visited{
-	color: black;
+.projects li{
+	list-style-type: none;
 }
-.projects-content {
+.projects img{
+	border-radius: 50%;
+	width: 50%;
+	height: 50%;
+	text-align: right;
+	margin-bottom: 2em;
+}
+.projects-content{
 	width: 85%;
 	margin: auto;
 	overflow: auto;
 	padding: 3em 0;
+}
+.project-desc{
+	width: 60%;
+	float: left;
+	text-align: left;
+}
+.project-desc li{
+	list-style-type: disc;
 }
 .social a{
 	color: black;
@@ -132,6 +152,11 @@ a:hover{
 }
 .social ul li img{
 	border-radius: 50%;
+	opacity: 1;
+}
+.social ul li img:hover{
+	transition: 0.4s;
+	opacity: 0.6;
 }
 .social-content {
 	width: 85%;
@@ -147,7 +172,7 @@ a:hover{
 	text-align: center;
 	height: 20vh;
 	overflow: auto;
-	background: url(https://i.pinimg.com/originals/36/f0/94/36f0949c623b61a235fd6645fa507236.jpg);
+	background: url(https://miro.medium.com/max/3840/0*AvJpsTWfq3il1ds9.jpg);
 }
 .clr{
 	clear: both;
@@ -157,9 +182,17 @@ a:hover{
 	.about-text {
 		width: 100%;
 	}
-	.image-container {
-		margin-top: 2em;
+	.project-desc{
 		width: 100%;
+	}
+	.image-container {
+		margin-top: 1em;
+		width: 100%;
+		text-align: center;
+	}
+	.about img{
+		width: 70%;
+		height: 70%;
 	}
 }
 
