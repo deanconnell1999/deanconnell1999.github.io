@@ -18,7 +18,7 @@ a:hover{
 	overflow: auto;
 	padding-left: 1em;
 	padding-right: 2em;
-	background: url(https://miro.medium.com/max/3840/0*AvJpsTWfq3il1ds9.jpg);
+	background: url(https://images.nerdery.com/wp-content/uploads/2022/02/Four-Ways-Data_featured-header.png);
 }
 .header h1{
 	font-size: 40px;
@@ -54,7 +54,7 @@ a:hover{
 	color: black;
 }
 .about a:hover{
-	color: rgb(55, 182, 174);
+	color: rgb(56, 60, 131);
 }
 .titles{
 	float: left;
@@ -66,7 +66,7 @@ a:hover{
 	color: white;
 }
 .titles a:hover{
-	color: rgb(55, 182, 174);
+	color: rgb(56, 60, 131);
 }
 .firstname{
 	line-height: 10px;
@@ -101,7 +101,7 @@ a:hover{
 	text-decoration: none;
 }
 .nav-menu ul li a:hover{
-	color: rgb(55, 182, 174);
+	color: rgb(56, 60, 131);
 }
 .projects{
 	background-color: #eee;
@@ -110,7 +110,7 @@ a:hover{
 	color: black;
 }
 .projects a:hover{
-	color: rgb(55, 182, 174);
+	color: rgb(56, 60, 131);
 }
 .projects li{
 	list-style-type: none;
@@ -140,7 +140,7 @@ a:hover{
 	color: black;
 }
 .social a:hover{
-	color: rgb(55, 182, 174);
+	color: rgb(56, 60, 131);
 }
 .social ul{
 	list-style-type: none;
@@ -172,7 +172,7 @@ a:hover{
 	text-align: center;
 	height: 20vh;
 	overflow: auto;
-	background: url(https://miro.medium.com/max/3840/0*AvJpsTWfq3il1ds9.jpg);
+	background: url(https://images.nerdery.com/wp-content/uploads/2022/02/Four-Ways-Data_featured-header.png);
 }
 .clr{
 	clear: both;
